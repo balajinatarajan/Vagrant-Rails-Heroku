@@ -43,7 +43,8 @@ gem update
 gem install rails
 rvm use ruby-2.2.3@rails4.2 --create
 rails -v
-
+apt-get install -y libpq-dev
+gem install pg
 
 #heroku install
 wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
