@@ -8,8 +8,6 @@ fi
 
 apt-get install -y curl
 
-echo "INSTALLING RVM ***&^&&^^&^^^&&&&&&&*******"
-pwd
 #install rvm & ruby
 curl -#LO https://rvm.io/mpapis.asc
 gpg --import mpapis.asc
